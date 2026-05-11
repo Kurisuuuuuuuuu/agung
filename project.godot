@@ -11,7 +11,6 @@ config_version=5
 [application]
 
 config/name="agung"
-run/main_scene="uid://c48yq3ysbo6l6"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
