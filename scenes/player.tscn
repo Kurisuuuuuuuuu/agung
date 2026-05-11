@@ -1,8 +1,10 @@
 [gd_scene format=3 uid="uid://q8fpoaiy7fjl"]
 
 [ext_resource type="Texture2D" uid="uid://c7iv5grfkbfym" path="res://SpaceShooterRedux/PNG/playerShip1_blue.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://ccpqysxyfyier" path="res://scenes/player.gd" id="1_g2els"]
 
 [node name="Player" type="Node2D" unique_id=856474176]
+script = ExtResource("1_g2els")
 
 [node name="PlayerImage" type="Sprite2D" parent="." unique_id=412349510]
 texture = ExtResource("1_4flbx")
