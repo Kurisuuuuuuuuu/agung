@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dxfo1kxdfqrh3"]
+
+[ext_resource type="Texture2D" uid="uid://cdfp6vjf7rk5p" path="res://SpaceShooterRedux/Backgrounds/darkPurple.png" id="1_w7c3h"]
+[ext_resource type="PackedScene" uid="uid://q8fpoaiy7fjl" path="res://scenes/player.tscn" id="2_w8frs"]
+
+[node name="Level" type="Node2D" unique_id=1837701276]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1624504909]
+position = Vector2(570, 365)
+scale = Vector2(4.84375, 3.9023438)
+texture = ExtResource("1_w7c3h")
+
+[node name="Player" parent="." unique_id=856474176 instance=ExtResource("2_w8frs")]
